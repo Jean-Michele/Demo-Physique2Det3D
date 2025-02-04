@@ -386,10 +386,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3947135047237357088, guid: e8f7ee6044052564489b7ff8502842a5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8f7ee6044052564489b7ff8502842a5,
         type: 3}
       propertyPath: m_Name
       value: Boule
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8f7ee6044052564489b7ff8502842a5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3262342966974626954, guid: e8f7ee6044052564489b7ff8502842a5,
         type: 3}
@@ -1471,7 +1481,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
